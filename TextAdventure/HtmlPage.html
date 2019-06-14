@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Slay the Troll</title>
+    <style>
+        h1 {font:bold small-caps 3em 'Segoe UI', Tahoma, Geneva, Verdana, san-serif; text-align:center; position:relative;}
+        h2 {font:bold small-caps 2em 'Segoe UI', Tahoma, Geneva, Verdana, san-serif; text-align:center; color:red; display:block;position:relative;}
+        h3 {font:bold small-caps 2em 'Segoe UI', Tahoma, Geneva, Verdana, san-serif; text-align:center; color:white; display:block;position:relative;}
+        p {font:bold small-caps 1em 'Segoe UI', Tahoma, Geneva, Verdana, san-serif; text-align:center; display:block;position:relative;}
+        h5 {font:bold small-caps .8em 'Segoe UI', Tahoma, Geneva, Verdana, san-serif; text-align:center; display:block;position:relative;}
+        input {max-height:100%; max-width:100%; font:bold 3em 'Courier New', Tahoma, Geneva, Verdana, san-serif; width:100%; background-color:black; color:white;}
+        div {display:block;position:relative;left:50%}
+        pre {font:bold small-caps 1.5em 'Segoe UI', Tahoma, Geneva, Verdana, san-serif; text-align:center; color:white; display:block;position:relative;}
+        section.USERINPUT {overflow:hidden auto;display:inline-block;position:fixed;top:60%;right:0;height:40%;width:70%;background-color:black;border:0.5em ridge #001a4d;box-sizing: border-box;}
+        section.GUIDE {overflow:hidden auto;display:inline-block;position:fixed;top:60%;left:0;height:40%;width:30%;background-color:#002266;border:0.5em ridge #001a4d;box-sizing: border-box;}
+        section.MAIN  {display:block;position:fixed;top:0;left:20%;height:60%;width:60%;background-color:#99bbff;border:0.5em ridge #001a4d;box-sizing: border-box;}
+        section.BAG {display:block;position:fixed;top:0;left:0;height:60%;width:20%;background-color:#002266;border:0.5em ridge #001a4d;box-sizing: border-box;}
+        section.LOCATIONS  {display:inline-block;position:fixed;top:0;right:0;height:60%;width:20%;background-color:#002266;border:0.5em ridge #001a4d;box-sizing: border-box;}
+        button {padding: 1.5em 2em; font:bold small-caps 1em 'Segoe UI'; text-align:center;}
+        span {font:bold 2em 'Courier New', Tahoma, Geneva, Verdana, san-serif; color:white;}
+    </style>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+     <section class="MAIN">
+        <h1>Slay the Troll!</h1><br /><br />
+
+        <p id="Main">Welcome adventurer! <br />
+
+
+        <p id="Secondary" class="tutorial">Are you a lady or a lord?<br /></p>
+        <div style="margin-left:-7em;">
+            <form class="tutorial">
+                <button type="button" onclick='SetGender("Male")'>Male</button>
+                <button type="button" onclick='SetGender("Female")'>Female</button>
+            </form>
+        </div>
+        <div style="margin-left:-50px; margin-top: 1em">
+            <img class="tutorial" id="Gender" src="" width="100" height="100" />
+        </div>
+        <p class="tutorial">What item have you taken with you on your adventure?</p>
+        <div style="margin-left:-14em;">
+            <form class="tutorial">
+                <button type="button" onclick='SetItem("Sword")'>A Really<br />Sharp Sword</button>
+                <button type="button" onclick='SetItem("Apple")'><br />Apple<br /></button>
+                <button type="button" onclick='SetItem("MagicDust")'>Bag of<br />Magic Dust</button>
+            </form>
+        </div>
+        <div style="margin-left:-50px; margin-top: 1em">
+            <img class="tutorial" id="Item" src="" width="100" height="90" />
+        </div>
+     </section>
+
+     <section class="USERINPUT">
+        <input id="usercomm" type="text" size="50" onkeypress="enter()" /><br />
+        <span id="Usermessage">Type "Yes" when ready to continue..</span>
+     </section>
+
+     <section class="GUIDE">
+        <pre id="guide">Keywords:<br />Eat</br>Attack</br>Talk to</br>Take</br>Look at</br></br>Use a Keyword with any of the things listed in your vicinity,<br/> or any of the things in your listed in your inventory.<br /><br />Type "restart" to start again from the beginning.</pre>
+        <pre id="guide2" style="visibility:hidden">Try typing "GO TO" alongside a location to visit there!</pre>
+      </section>
+
+    <section class="BAG">
+        <h2>Inventory</h2>
+        <div>
+            <img id="contentsIMG" style="margin-left:-50px;" width="100" height="100" src="" />
+        </div>
+        <h3 id="contentsTEXT"></h3>
+        <br />
+        <h2>Environment</h2>
+        <h3 id="envi1"></h3>
+        <h3 id="envi2"></h3>
+        <h3 id="envi3"></h3>
+    </section>
+
+    <section class="LOCATIONS">
+        <h2>Locations</h2>
+        <h3 id="loca1"></h3>
+        <h3 id="loca2"></h3>
+        <h3 id="loca3"></h3>
+        </section>
+</body>
+</html>
+
+<script language="javascript">
+    
+    var Keywords = [
+        eat = {
+            lookup: 'eat',
+            blank: 'Yeah of course you just want to eat you fatty. Who ate all the pies? You did, you fat shit.'
+        },
+        attack = {
+            lookup: 'attack',
+            blank: "You're gonna have to direct this mindless violence at something in particular you know.. Seriously you're as bad as North Korea. Or America."
+        },
+        talk = {
+            lookup: 'talk',
+            blank: "That's all people like you ever do. Just shut up and get on with it."
+        },
+        take = {
+            lookup: 'take',
+            blank: 'Learn grammer, moron.'
+        },
+        look = {
+            lookup: 'look',
+            blank: 'Look up dipshit, I told you everything you see already.'
+        },
+        restart = {
+            lookup: 'restart',
+        }
+    ]
+
+    var Locations = [
+        library = { 
+            lookup: "library"
+        },
+        sailboat = { 
+            lookup: "boat"
+        },
+        puzzle = { 
+            lookup: "Door"
+        }
+    ]
+
+    var Inventory = [
+        apple = {
+            lookup: "apple",
+            eat: "The man looks at you oddly as you raise the apple to your lips, you see his eyes water as your teeth sink into it. As the sweet taste engulfs your senses the man lets out a sharp cry of grief and fear, dropping the needle he runs screaming into the darkness of the depths of the woods.<br /><br /> An apple a day..<br /><br />You notice he dropped his lab coat, however and decide to keep it for yourself.<br/><br/>You quickly make your way through the forest and out the other side and find a small path.<br/>In one direction the path leads to a small jetty whereupon a small sailboat is docked.<br/><br/>If you take the path in the other direction, however, you come to a fork in the road.<br/>The fork to the left leads to a small hut with a sign that reads, 'library'. <br/> The other fork leads to a large stone door set into the side of a mountain",
+            attack: "You raise your fist and bring it down hard onto the apple. Perhaps it is tougher than you think, perhaps your not as tough as you think. Either way, this apple is clearly tougher than you.",
+            talk: "Yeeeaaaaah... Apples don't talk. You weirdo.",
+            take: "You already own it dipshit.",
+            look: "Yup. That's a fruit. Of the apple variety. You know what an apple is, right?<br /><br />If not then use google and educate yourself."
+        }
+    ]
+
+    var Enviroment = [
+        doctor = {
+            lookup: "doctor",
+            eat: "He's a bit too big to eat. Plus he has a big hypodermic needle, you don't really want that in your gums, do you?",
+            attack: "Er.. He has a lethal injection. And what exactly do you have?<br />That's a rhetorical question, idiot.",
+            talk: "'Stabby stabby stab stab!!' he shrieks, stabbingly, whilst stabbing you.<br /><br />You're dead now.",
+            take: "Take him? Something tells me he got something to put into YOU.",
+            look: "Yep, he's gonna kill you.",
+        },
+        needle = {
+            lookup: "needle",
+            eat: "Dumb. That idea is dumb. You dumb.",
+            attack: "Needles don't kill people, doctors do.",
+            talk: "...<br />And what did you expect?",
+            take: "You attempt to take the needle from the doctor. He promptly stabs you with it in your neck.<br /><br /> You dead, dumbass.",
+            look: "Yep, that's gonna kill you."
+        }
+    ]
+        
+    var gender
+    var item
+    var tutorial = document.getElementsByClassName("tutorial");
+    var scene = 0
+
+
+
+    function GoAgain() {
+        scene = 0;
+        gender = 0;
+        item = 0;
+
+        Main.innerHTML = "Welcome adventurer!<br />";
+        Secondary.innerHTML = "Are you a lady or a lord?<br />";
+        Usermessage.innerHTML = "";
+        loca1.innerText = ""; loca2.innerText = ""; loca3.innerText = "";
+        envi1.innerText = ""; envi2.innerText = ""; envi3.innerText = "";
+        contentsIMG.src = ""; contentsTEXT.innerText = "";
+        Gender.src = ""; Item.src = "";
+
+        for (var i = 0; i < tutorial.length; i++) {
+            tutorial[i].style.visibility = "visible";
+        }
+    }
+
+
+
+
+
+
+    function SetGender(GenderValue) {
+        
+        gender = GenderValue
+        if (GenderValue == "Male") {
+            Gender.src = "HDGraphics/Male.bmp"
+        }
+        else if (GenderValue == "Female") {
+            Gender.src = "HDGraphics/Female.bmp"
+        }
+    }
+
+
+
+    function SetItem(ItemValue) {
+        item = ItemValue
+        if (ItemValue == "Sword") {
+            Item.src = "HDGraphics/Sword.bmp";
+            contentsIMG.src = "HDGraphics/Sword.bmp";
+            contentsTEXT.innerText = "Sword"
+        }
+        else if (ItemValue == "Apple") {
+            Item.src = "HDGraphics/Apple.bmp";
+            contentsIMG.src = "HDGraphics/Apple.bmp";
+            contentsTEXT.innerText = "Apple"
+        }
+        else if (ItemValue == "MagicDust") {
+            Item.src = "HDGraphics/MagicDust.bmp";
+            contentsIMG.src = "HDGraphics/MagicDust.bmp";
+            contentsTEXT.innerText = "Bag of Magic Dust"
+        }
+    }
+
+    var k
+    
+    function Ktest() {
+        for (k = Keywords.length - 1; k >= 0; --k) {
+            if (usercomm.value.toLowerCase().indexOf(Keywords[k].lookup) != -1) {
+                if (k == 5) {
+                    GoAgain();
+                }
+                else if (k < 5) {
+                    Usermessage.innerHTML = Keywords[k].blank;
+                }
+            }
+        }
+    }
+
+
+    function enter() {
+        if (event.keyCode == 13) {
+            if (scene == 0) {
+
+                if (usercomm.value.toLowerCase() == "n" || usercomm.value.toLowerCase() == "no") {
+                    Usermessage.innerText = "Wrong answer dumbass..";
+                }
+                else if (usercomm.value.toLowerCase() == "y" || usercomm.value.toLowerCase() == "yes") {
+                    if (item == "Sword" | item == "MagicDust" | item == "Apple") {
+                        for (var i = 0; i < tutorial.length; i++) {
+                            tutorial[i].style.visibility = "hidden";
+                        }
+                        if (item == "Sword") {
+                            Main.innerHTML = "You decided to depart on your adventure prepared for the worst. Sword in hand you carve your way down the trail set before you, eager and battle-ready. </br>With such confidence you stride onward breaking into a jog and before long you're charging across the fields ready to do battle with the many ominous and evil creatures that lay before you.</br></br>Unfortunately, however, you snag your toe on a rock and consequently trip and fall, impaling yourself upon your own weapon.</br>As the red mist decends and darkness looms over you, you can't help but think of the advice your mother always gave you when you were little.<br></br>'Don't run with knives, dear.'<br /></br></br><u>Type restart to try again and choose something more useful to take on your adventure with you!</u>"
+                        }
+                        else if (item == "MagicDust") {
+                            Main.innerHTML = "Deciding to travel lightly, you set off on your adventure armed only with a small bag of magic dust that you had acquired from a wandering fairy. Knowing the power of the fairies, you were sure the pouch of particles would be more than enough to keep you safe.</br></br>Unfortunately, however, it was not enough. That's the thing with magical powder, you're forever chasing the magic dragon.</br></br>Now, a poor addict, your adventure ends here.<br /></br></br><u>Type restart to try again and choose something more useful to take on your adventure with you!</u>"
+                        }
+                        else if (item == "Apple") {
+                            Main.innerHTML = "You set off on your grand adventure, taking with you nothing but a small, crisp-looking, red apple. You decide to take the path that lead through the nearby woods, hoping to move unseen through it.</br></br>Unfortunately, however, just as the open field behind is swallowed up by the trees around you, a tall man steps from behind one of the trunks ahead. He is grinning cruelly and steps menacingly toward you, dressed in a doctor's coat and wielding a large hypodermic needle filled with what you can only assume is a deadly toxin.</br></br></br>What do you do?";
+                            Usermessage.innerHTML = ""
+                            envi1.innerText = "Doctor"
+                            envi2.innerText = "Needle"
+                            scene = +1;
+                        }
+                    }
+                }
+                else { Ktest(); }
+            }
+            else if (scene == 1) {
+                Ktest();
+                for (k = Keywords.length - 1; k >= 0; --k) {
+                    if (usercomm.value.toLowerCase().indexOf(Keywords[k].lookup) != -1) {
+                        for (var i = Inventory.length - 1; i >= 0; --i) {
+                            if (usercomm.value.toLowerCase().indexOf(Inventory[i].lookup) != -1) {
+                                //0=eat 1=attack 2=talk 3=take 4=look
+                                if (k == 0 && i == 0) {
+                                    Main.innerHTML = Inventory[i].eat;
+                                    contentsIMG.src = "HDGraphics/labcoat.bmp";
+                                    contentsTEXT.innerText = "Doctor's Coat";
+                                    Usermessage.innerHTML = "";
+                                    loca1.innerText = "Door";
+                                    loca2.innerText = "Boat";
+                                    loca3.innerText = "Library";
+                                    envi1.innerText = "";
+                                    envi2.innerText = "";
+                                    guide2.style.visibility = "visible";
+
+                                    scene + 1
+                                }
+                                else if (k == 1) {
+                                    Usermessage.innerHTML = Inventory[i].attack;
+                                }
+                                else if (k == 2) {
+                                    Usermessage.innerHTML = Inventory[i].talk;
+                                }
+                                else if (k == 3) {
+                                    Usermessage.innerHTML = Inventory[i].take;
+                                }
+                                else if (k == 4) {
+                                    Usermessage.innerHTML = Inventory[i].look;
+                                }
+                                else { Ktest(); }
+                            }
+                        }
+                        for (var e = Enviroment.length - 1; e >= 0; --e) {
+                            if (usercomm.value.toLowerCase().indexOf(Enviroment[e].lookup) != -1) {
+                                //0=eat 1=attack 2=talk 3=take 4=look
+                                if (k == 0) {
+                                    Usermessage.innerHTML = Enviroment[e].eat;
+                                }
+                                else if (k == 1) {
+                                    Usermessage.innerHTML = Enviroment[e].attack;
+                                }
+                                else if (k == 2 && e == 0) {
+                                    Main.innerHTML = Enviroment[e].talk;
+                                    Usermessage.innerText = "";
+                                    scene = "DEAD"
+                                }
+                                else if (k == 2) {
+                                    Usermessage.innerHTML = Enviroment[e].talk;
+                                }
+                                else if (k == 3 && e == 1) {
+                                    Main.innerHTML = Enviroment[e].take;
+                                    Usermessage.innerText = "";
+                                    scene = "DEAD"
+                                }
+                                else if (k == 3) {
+                                    Usermessage.innerHTML = Enviroment[e].take;
+                                }
+                                else if (k == 4) {
+                                    Usermessage.innerHTML = Enviroment[e].look;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            else if (scene == 2) {
+                Ktest();
+                for (k = Keywords.length - 1; k >= 0; --k) {
+                    if (usercomm.value.toLowerCase().indexOf(Keywords[k].lookup) != -1) {
+                        for (var i = Inventory.length - 1; i >= 0; --i) {
+                            if (usercomm.value.toLowerCase().indexOf(Inventory[i].lookup) != -1) {
+                                //0=eat 1=attack 2=talk 3=take 4=look
+                                if (k == 0 && i == 0) {
+                                    Main.innerHTML = Inventory[i].eat;
+                                    contentsIMG.src = "HDGraphics/labcoat.bmp";
+                                    contentsTEXT.innerText = "Doctor's Coat";
+                                    Usermessage.innerHTML = "";
+                                    loca1.innerText = "Door";
+                                    loca2.innerText = "Boat";
+                                    loca3.innerText = "Library";
+                                    envi1.innerText = "";
+                                    envi2.innerText = "";
+                                    guide2.style.visibility = "visible";
+
+                                    scene + 1
+                                }
+                                else if (k == 1) {
+                                    Usermessage.innerHTML = Inventory[i].attack;
+                                }
+                                else if (k == 2) {
+                                    Usermessage.innerHTML = Inventory[i].talk;
+                                }
+                                else if (k == 3) {
+                                    Usermessage.innerHTML = Inventory[i].take;
+                                }
+                                else if (k == 4) {
+                                    Usermessage.innerHTML = Inventory[i].look;
+                                }
+                                else { Ktest(); }
+                            }
+                        }
+                        for (var e = Enviroment.length - 1; e >= 0; --e) {
+                            if (usercomm.value.toLowerCase().indexOf(Enviroment[e].lookup) != -1) {
+                                //0=eat 1=attack 2=talk 3=take 4=look
+                                if (k == 0) {
+                                    Usermessage.innerHTML = Enviroment[e].eat;
+                                }
+                                else if (k == 1) {
+                                    Usermessage.innerHTML = Enviroment[e].attack;
+                                }
+                                else if (k == 2) {
+                                    Usermessage.innerHTML = Enviroment[e].talk;
+                                }                               
+                                else if (k == 3) {
+                                    Usermessage.innerHTML = Enviroment[e].take;
+                                }
+                                else if (k == 4) {
+                                    Usermessage.innerHTML = Enviroment[e].look;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            else if (scene == "DEAD") {
+                
+                if (Usermessage.innerText == "You're dead. Type 'restart' to try again. Loser.") {
+                    Usermessage.innerText = "Seriously, stop whining and just try again."
+                }
+                else {
+                    Usermessage.innerText = "You're dead. Type 'restart' to try again. Loser."
+                    
+                }
+                for (k = Keywords.length - 1; k >= 0; --k) {
+                    if (usercomm.value.toLowerCase().indexOf(Keywords[k].lookup) != -1) {
+                        if (k == 5) {
+                            GoAgain();
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+
