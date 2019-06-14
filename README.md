@@ -10,7 +10,7 @@ A collection of various games I've made using different programming languages.
 
 [MeteorGame_CONCEPTBULD.exe]
 - Run the .exe file, requires MeteorGameCONCEPTDEMO_Data folder and UnityPlayer.dll to run
-- My most recent unity build, still in progress.
+- My most recent unity build, still in progress. C# Script files are located in [MeteorGame] folder
 - CONTROLS -
 [WASD / Analog Stick] - Move
 [Enter / X] - Interact
