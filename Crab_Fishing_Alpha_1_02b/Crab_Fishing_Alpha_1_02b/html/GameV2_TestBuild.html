@@ -1,0 +1,194 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>GameV2_TestBuild</title><meta name="generator" content="MATLAB 9.0"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-02-11"><meta name="DC.source" content="GameV2_TestBuild.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput">game = 1;
+<span class="keyword">while</span> game == 1
+clc
+<span class="comment">%PLAYER 1 STATS INIT</span>
+boat_count = [1, 1, 1, 1];
+money = [150, 150, 150, 150];
+pot_count = [1, 1, 1, 1];
+
+<span class="comment">%WEATHER INIT</span>
+storm_count = 0;
+crit_val = 1/6;
+storm = 0;
+hurricane = 0;
+
+<span class="comment">%GAME INIT</span>
+nowork = 0;
+day = 1;
+week = 1;
+legal = 0;
+<span class="keyword">while</span> legal == 0
+n = input(<span class="string">'How many players?\n\nInput = '</span>);
+<span class="keyword">if</span> n &lt; 4 &amp;&amp; n &gt; 0
+    legal = 1;
+<span class="keyword">else</span>
+    n = input(<span class="string">'INVALID NUMBER OF PLAYERS\nHow many players?\n\nInput = '</span>);
+<span class="keyword">end</span>
+<span class="keyword">end</span>
+
+
+<span class="keyword">while</span> week &lt; 5
+    <span class="keyword">while</span> day &lt; 8
+    <span class="comment">%start day</span>
+    clc
+    <span class="comment">%function startDay</span>
+    [work_choice] = startDayV2(n, week, day, money, boat_count, pot_count, storm_count);
+    <span class="comment">%storm?</span>
+    clc
+    [storm, hurricane, storm_count, crit_val] = StormTest(storm, hurricane, storm_count, crit_val);
+    <span class="comment">%hurricane?</span>
+    [ money, hurricane, boat_count, pot_count, nowork] = HurricaneTestV2(n, nowork, money, hurricane, boat_count, pot_count, work_choice );
+    <span class="comment">%Calculate earnings</span>
+    [ nowork, money ] = calc_EarningsV2(n, nowork, storm, work_choice, money, pot_count );
+    day = day + 1;
+    cont = input(<span class="string">'Input any number to continue\n\nInput = '</span>);
+    <span class="keyword">end</span>
+
+    <span class="comment">%END OF WEEK 1</span>
+    <span class="comment">%Buy boats/pots?</span>
+    clc
+    [money, boat_count, pot_count] = EndofWeekV2(n, week, money, boat_count, pot_count);
+        week = week + 1;
+        day = 1;
+<span class="keyword">end</span>
+
+[ null ] = GAME_END(n, boat_count, pot_count, money );
+week = 1;
+day = 1;
+<span class="keyword">end</span>
+</pre><pre class="codeoutput error">Error using input
+Cannot call INPUT from EVALC.
+
+Error in GameV2_TestBuild (line 21)
+n = input('How many players?\n\nInput = ');
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2016a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+game = 1;
+while game == 1
+clc
+%PLAYER 1 STATS INIT
+boat_count = [1, 1, 1, 1];
+money = [150, 150, 150, 150];
+pot_count = [1, 1, 1, 1];
+
+%WEATHER INIT
+storm_count = 0;
+crit_val = 1/6;
+storm = 0;
+hurricane = 0;
+
+%GAME INIT
+nowork = 0;
+day = 1;
+week = 1;
+legal = 0;
+while legal == 0
+n = input('How many players?\n\nInput = ');
+if n < 4 && n > 0
+    legal = 1;
+else
+    n = input('INVALID NUMBER OF PLAYERS\nHow many players?\n\nInput = ');
+end
+end
+
+    
+while week < 5
+    while day < 8
+    %start day
+    clc
+    %function startDay
+    [work_choice] = startDayV2(n, week, day, money, boat_count, pot_count, storm_count);
+    %storm?
+    clc
+    [storm, hurricane, storm_count, crit_val] = StormTest(storm, hurricane, storm_count, crit_val);
+    %hurricane?
+    [ money, hurricane, boat_count, pot_count, nowork] = HurricaneTestV2(n, nowork, money, hurricane, boat_count, pot_count, work_choice );
+    %Calculate earnings
+    [ nowork, money ] = calc_EarningsV2(n, nowork, storm, work_choice, money, pot_count );
+    day = day + 1;
+    cont = input('Input any number to continue\n\nInput = ');
+    end
+
+    %END OF WEEK 1
+    %Buy boats/pots?
+    clc
+    [money, boat_count, pot_count] = EndofWeekV2(n, week, money, boat_count, pot_count);
+        week = week + 1;
+        day = 1;
+end
+
+[ null ] = GAME_END(n, boat_count, pot_count, money );
+week = 1;
+day = 1;
+end
+
+##### SOURCE END #####
+--></body></html>
