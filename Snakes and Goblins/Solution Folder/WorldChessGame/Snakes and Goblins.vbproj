@@ -1,0 +1,1938 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FCF2FB1-3138-4026-9023-33C818F3D901}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WorldChessGame.My.MyApplication</StartupObject>
+    <RootNamespace>WorldChessGame</RootNamespace>
+    <AssemblyName>WorldChessGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\User\Desktop\VB Build\Snakes and Goblins\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WorldChessGame.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WorldChessGame.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>069B473D6A2A4667956B852BA36E06C199E7B663</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Snakes and Goblins_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CCTool.Designer.vb">
+      <DependentUpon>CCTool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CombatPicker.Designer.vb">
+      <DependentUpon>CombatPicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CombatPicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameMap.Designer.vb">
+      <DependentUpon>GameMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.vb">
+      <DependentUpon>GameOver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameOver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapEditor.Designer.vb">
+      <DependentUpon>MapEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Module2.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PCStat.Designer.vb">
+      <DependentUpon>PCStat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PCStat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCMarker.Designer.vb">
+      <DependentUpon>PCMarker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PCMarker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCSkin.Designer.vb">
+      <DependentUpon>PCSkin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PCSkin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player.vb" />
+    <Compile Include="Enemies.vb" />
+    <Compile Include="MenuScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuScreen.Designer.vb">
+      <DependentUpon>MenuScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.Designer.vb">
+      <DependentUpon>Map.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Map.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BattleScreen.Designer.vb">
+      <DependentUpon>BattleScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BattleScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CCTool.resx">
+      <DependentUpon>CCTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CombatPicker.resx">
+      <DependentUpon>CombatPicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameMap.resx">
+      <DependentUpon>GameMap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapEditor.resx">
+      <DependentUpon>MapEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCStat.resx">
+      <DependentUpon>PCStat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuScreen.resx">
+      <DependentUpon>MenuScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map.resx">
+      <DependentUpon>Map.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BattleScreen.resx">
+      <DependentUpon>BattleScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCMarker.resx">
+      <DependentUpon>PCMarker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCSkin.resx">
+      <DependentUpon>PCSkin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Snakes and Goblins_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Icon.5_56.png" />
+    <None Include="Images\Icon.2_81.png" />
+    <None Include="Images\Icon.2_16.png" />
+    <None Include="Images\Icon.5_70.png" />
+    <None Include="Images\Enemies\Enemy_Snake_Idle.png" />
+    <None Include="Images\Enemies\Enemy_Goblin_Hit.png" />
+    <None Include="Images\Enemies\Enemy_Goblin_Idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Dark001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Dark002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Dark003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Dark004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Dark008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Base_Rock_Dark001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Base_Rock_Dark002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Base_Rock_Dark003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Corner_Grass_Light014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Dark001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Dark002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Grass_Light011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Rock_Light001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Rock_Light002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Rock_Light003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Rock_Light004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Edge_Rock_Light005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Grass_Light035.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Dark013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Full_Rock_Light013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Shadow_Grass_Light008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-1\Top_Rock_Dark009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Strings\Maps\Level0.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2828%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2829%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2831%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2832%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2833%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2834%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2835%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2836%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2837%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2838%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2839%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2840%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2841%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %2842%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2828%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2829%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2831%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2832%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2833%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2834%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2835%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2836%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2837%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2838%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2839%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2840%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2841%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2842%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2843%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2844%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2845%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2846%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2847%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2848%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2849%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2850%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2851%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2852%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2853%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2854%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2855%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2856%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2857%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2858%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2859%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2860%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2861%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2862%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2863%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2864%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2865%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2866%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2867%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2868%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2869%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2870%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2871%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2872%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2873%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2874%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2875%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2876%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2877%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2878%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2879%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2880%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2881%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2882%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2883%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2884%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2885%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2886%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2887%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %2888%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2828%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2829%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %2831%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2824%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2825%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Markers\PC-Marker-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Ambi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Ambi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Ambi3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Ambi4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Ambi5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Female1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Female2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Female3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Male1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\Male2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Skins\pr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Anims\Ninja\PC_Anim_Ninja_Walk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PC\Anims\Ninja\PC_Anim_Ninja_Walk2.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

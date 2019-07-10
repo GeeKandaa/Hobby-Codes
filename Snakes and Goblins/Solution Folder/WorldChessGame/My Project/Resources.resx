@@ -1,0 +1,1435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Menu_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icon.2_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenMenu_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icon.2_81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explore_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icon.5_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Goblin_Hit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Enemies\Enemy_Goblin_Hit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Goblin_Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Enemies\Enemy_Goblin_Idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Snake_Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Enemies\Enemy_Snake_Idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ambi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Ambi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ambi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Ambi2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ambi3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Ambi3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ambi4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Ambi4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ambi5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Ambi5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_00__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_00__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_00__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_00__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_00 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_01__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_01__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_01__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_01__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_01__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_01 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_02__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_02__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_02__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_02__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_02 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__27_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__28_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__29_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (29).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__30_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (30).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__31_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__33_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (33).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__34_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (34).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__35_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (35).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__36_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__37_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (37).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__38_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (38).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__39_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (39).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__40_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (40).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__41_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (41).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__42_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (42).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_03__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_03 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__27_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__28_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__29_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (29).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__30_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (30).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__31_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__32_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__33_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (33).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__34_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (34).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__35_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (35).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__36_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__37_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (37).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__38_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (38).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__39_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (39).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__40_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (40).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__41_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (41).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__42_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (42).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__43_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (43).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__44_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (44).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__45_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (45).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__46_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (46).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__47_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (47).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__48_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (48).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__49_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (49).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__50_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (50).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__51_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (51).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__52_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (52).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__53_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (53).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__54_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (54).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__55_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (55).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__56_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (56).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__57_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (57).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__58_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (58).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__59_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (59).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__60_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (60).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__61_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (61).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__62_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (62).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__63_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (63).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__64_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (64).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__65_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (65).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__66_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (66).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__67_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (67).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__68_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (68).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__69_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (69).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__70_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (70).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__71_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (71).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__72_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (72).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__73_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (73).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__74_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (74).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__75_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (75).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__76_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (76).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__77_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (77).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__78_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (78).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__79_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (79).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (80).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__81_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (81).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__82_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (82).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__83_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (83).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__84_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (84).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__85_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (85).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__86_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (86).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__87_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (87).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__88_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (88).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_04__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_04 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__27_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (27).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__28_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__29_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (29).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__30_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (30).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__31_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (31).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_05__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_05 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_06__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_06__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_06__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_06__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_06__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_06__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_06__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_06 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_07__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_07 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Foreground_08__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Foreground\Ashlands_Foreground_08 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ashlands_Overworld_00__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\Ashlands_Overworld_00 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_01__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_01 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_02__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_02 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_03__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_03 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_04__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_04 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__19_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (19).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__20_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__21_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__22_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (22).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__23_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (23).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__24_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (24).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__25_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (25).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__26_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (26).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_05__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_05 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_06__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_06 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Overworld_07__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Overworld\AshLands_Overworld_07 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_00__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_00 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_01__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_01 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__10_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (10).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__11_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__12_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (12).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__13_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (13).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__14_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__15_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (15).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__16_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__17_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__18_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__8_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AshLands_Underground_02__9_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Ashlands\Underground\AshLands_Underground_02 (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Female1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Female1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Female2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Female2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Female3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Female3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Male1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Male1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Male2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Male2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Anim_Ninja_Walk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Anims\Ninja\PC_Anim_Ninja_Walk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Marker_91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC-Marker-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\pr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\strings\maps\level0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PC_Anim_Ninja_Walk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Anims\Ninja\PC_Anim_Ninja_Walk2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

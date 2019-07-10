@@ -1,0 +1,2216 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WorldChessGame
+</name>
+</assembly>
+<members>
+<member name="T:WorldChessGame.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ambi1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ambi2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ambi3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ambi4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ambi5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_00__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_00__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_00__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_00__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_01__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_01__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_01__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_01__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_01__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_02__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_02__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_02__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_02__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__19_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__20_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__21_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__22_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__23_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__25_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__26_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__27_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__28_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__29_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__30_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__31_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__32_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__33_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__34_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__35_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__36_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__37_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__38_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__39_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__40_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__41_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__42_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_03__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__19_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__20_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__21_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__22_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__23_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__25_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__26_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__27_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__28_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__29_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__30_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__31_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__32_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__33_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__34_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__35_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__36_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__37_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__38_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__39_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__40_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__41_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__42_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__43_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__44_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__45_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__46_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__47_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__48_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__49_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__50_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__51_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__52_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__53_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__54_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__55_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__56_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__57_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__58_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__59_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__60_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__61_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__62_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__63_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__64_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__65_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__66_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__67_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__68_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__69_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__70_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__71_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__72_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__73_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__74_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__75_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__76_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__77_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__78_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__79_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__80_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__81_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__82_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__83_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__84_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__85_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__86_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__87_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__88_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_04__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__19_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__20_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__21_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__22_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__23_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__25_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__26_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__27_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__28_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__29_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__30_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__31_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_05__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_06__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_06__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_06__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_06__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_06__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_06__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_06__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_07__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Foreground_08__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Ashlands_Overworld_00__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_01__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__19_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__20_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_02__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__19_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__20_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__21_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__22_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__23_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_03__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__19_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__20_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__21_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__22_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__23_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__25_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__26_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_04__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__19_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__20_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__21_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__22_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__23_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__25_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__26_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_05__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_06__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Overworld_07__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_00__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_01__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__12_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__13_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__14_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__15_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__16_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__17_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__18_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.AshLands_Underground_02__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Enemy_Goblin_Hit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Enemy_Goblin_Idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Enemy_Snake_Idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Explore_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Female1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Female2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Female3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Level0">
+<summary>
+  Looks up a localized string similar to 10|4|6|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|True|False|Void|AshLands_Overworld_01__9_|False|False|Void|AshLands_Overworld_01__9_|False|False|Void|AshLands_Overworld_01__9_|False|False|Void|Ashlands_Overworld_00__1_|True|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|Fal [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Male1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Male2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Menu_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.OpenMenu_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Anim_Ninja_Walk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Anim_Ninja_Walk2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_101">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_111">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_51">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_61">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_81">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_91">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.pr">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
