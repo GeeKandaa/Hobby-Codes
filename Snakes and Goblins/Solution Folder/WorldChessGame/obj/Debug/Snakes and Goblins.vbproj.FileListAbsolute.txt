@@ -1,0 +1,50 @@
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\bin\Debug\WorldChessGame.exe.config
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\bin\Debug\WorldChessGame.exe.manifest
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\bin\Debug\WorldChessGame.application
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\bin\Debug\WorldChessGame.exe
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\bin\Debug\WorldChessGame.pdb
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\bin\Debug\WorldChessGame.xml
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.CCTool.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.CombatPicker.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.GameOver.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.PCStat.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.MenuScreen.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.Map.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.BattleScreen.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.Resources.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.PCMarker.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.PCSkin.resources
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\Snakes and Goblins.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\Snakes and Goblins.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.exe.manifest
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.application
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.exe
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.xml
+C:\Users\User\source\repos\WorldChessGame\WorldChessGame\obj\Debug\WorldChessGame.pdb
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\bin\Debug\WorldChessGame.exe.config
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\bin\Debug\WorldChessGame.exe.manifest
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\bin\Debug\WorldChessGame.application
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\bin\Debug\WorldChessGame.exe
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\bin\Debug\WorldChessGame.pdb
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\bin\Debug\WorldChessGame.xml
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.CCTool.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.CombatPicker.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.GameMap.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.GameOver.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.MapEditor.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.PCStat.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.MenuScreen.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.Map.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.BattleScreen.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.Resources.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.PCMarker.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.PCSkin.resources
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\Snakes and Goblins.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\Snakes and Goblins.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.exe.manifest
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.application
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.exe
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.xml
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.pdb
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\Snakes and Goblins.vbprojAssemblyReference.cache
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.MapPad.resources

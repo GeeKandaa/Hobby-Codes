@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WorldChessGame
+</name>
+</assembly>
+<members>
+<member name="T:WorldChessGame.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Enemy_Goblin_Idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Enemy_Snake_Idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.gamesong_mixdown">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Level0">
+<summary>
+  Looks up a localized string similar to 20|9|4|Void|Tileset_TilesetGrass_Background_0093|False|Void|False|Void|Tileset_TilesetGrass_Background_0071|False|Void|False|Void|Tileset_TilesetGrass_Background_0071|False|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0 [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.LockedDoor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Markers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skin_Ninja">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skin_Samurai">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skins_Static">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skins_Static_Ref">
+<summary>
+  Looks up a localized string similar to Ninja|Samurai.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.SpawnPoint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Ashlands_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Hyptosis1_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Hyptosis2_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Hyptosis3_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Terrain_Ground1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_thefieldofthefloatingislands_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_TilesetGrass_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_WorldMapOverworld_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.UnlockedDoor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.Wall">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
