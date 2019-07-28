@@ -42,17 +42,37 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.exe.manifest
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorldChessGame.exe" size="2046880">
+=======
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WorldChessGame.exe" size="43926944">
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.exe.manifest
       <assemblyIdentity name="WorldChessGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.exe.manifest
         <dsig:DigestValue>DGK3SrL2qNqqmHMTXVS4HM0lAsUTUCpK6HRudAZDenE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+=======
+        <dsig:DigestValue>+JhA+pe14WrTqALcD6SidaK7bj1eXRa0O+LMtwFC+fs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Audio\gamesong_mixdown.wav" size="41414010">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yzive8EsyUO8XCPz15C+3sdmqq0ktOIi+eM7D/GFYyI=</dsig:DigestValue>
+    </hash>
+  </file>
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.exe.manifest
   <file name="WorldChessGame.exe.config" size="188">
     <hash>
       <dsig:Transforms>

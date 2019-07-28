@@ -22,6 +22,7 @@ WorldChessGame
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.Ambi1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -2087,6 +2088,8 @@ WorldChessGame
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+=======
+>>>>>>> Edit
 <member name="P:WorldChessGame.My.Resources.Resources.Enemy_Goblin_Idle">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -2097,6 +2100,7 @@ WorldChessGame
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.Explore_Icon">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -2115,10 +2119,16 @@ WorldChessGame
 <member name="P:WorldChessGame.My.Resources.Resources.Female3">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.gamesong_mixdown">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+>>>>>>> Edit
 </summary>
 </member>
 <member name="P:WorldChessGame.My.Resources.Resources.Level0">
 <summary>
+<<<<<<< HEAD
   Looks up a localized string similar to 10|4|6|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|True|False|Void|AshLands_Overworld_01__9_|False|False|Void|AshLands_Overworld_01__9_|False|False|Void|AshLands_Overworld_01__9_|False|False|Void|Ashlands_Overworld_00__1_|True|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|False|False|Void|Ashlands_Overworld_00__1_|Fal [rest of string was truncated]&quot;;.
 </summary>
 </member>
@@ -2128,86 +2138,157 @@ WorldChessGame
 </summary>
 </member>
 <member name="P:WorldChessGame.My.Resources.Resources.Male2">
+=======
+  Looks up a localized string similar to 20|9|4|Void|Tileset_TilesetGrass_Background_0093|False|Void|False|Void|Tileset_TilesetGrass_Background_0071|False|Void|False|Void|Tileset_TilesetGrass_Background_0071|False|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0071|True|Void|False|Void|Tileset_TilesetGrass_Background_0 [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.LockedDoor">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.Menu_Icon">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Markers">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.OpenMenu_Icon">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skin_Ninja">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Anim_Ninja_Walk">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skin_Samurai">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Anim_Ninja_Walk2">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skins_Static">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_101">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.PC_Skins_Static_Ref">
+<summary>
+  Looks up a localized string similar to Ninja|Samurai.
+</summary>
+</member>
+<member name="P:WorldChessGame.My.Resources.Resources.SpawnPoint">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_111">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Ashlands_Background">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_21">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Hyptosis1_Background">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_31">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Hyptosis2_Background">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_41">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Hyptosis3_Background">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_51">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_Terrain_Ground1">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_61">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_thefieldofthefloatingislands_Background">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_71">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_TilesetGrass_Background">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_81">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Tileset_WorldMapOverworld_Background">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.PC_Marker_91">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.UnlockedDoor">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<<<<<<< HEAD
 <member name="P:WorldChessGame.My.Resources.Resources.pr">
+=======
+<member name="P:WorldChessGame.My.Resources.Resources.Wall">
+>>>>>>> Edit
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -25,7 +25,11 @@ Partial Class PCSkin
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.OK_Button = New System.Windows.Forms.Button()
         Me.Cancel_Button = New System.Windows.Forms.Button()
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
         Me.Panel = New System.Windows.Forms.Panel()
+=======
+        Me.Panel1 = New System.Windows.Forms.Panel()
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -63,6 +67,7 @@ Partial Class PCSkin
         Me.Cancel_Button.TabIndex = 1
         Me.Cancel_Button.Text = "Cancel"
         '
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
         'Panel
         '
         Me.Panel.AutoScroll = True
@@ -70,6 +75,15 @@ Partial Class PCSkin
         Me.Panel.Name = "Panel"
         Me.Panel.Size = New System.Drawing.Size(348, 431)
         Me.Panel.TabIndex = 1
+=======
+        'Panel1
+        '
+        Me.Panel1.AutoScroll = True
+        Me.Panel1.Location = New System.Drawing.Point(12, 12)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(348, 431)
+        Me.Panel1.TabIndex = 1
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
         '
         'PCSkin
         '
@@ -78,7 +92,11 @@ Partial Class PCSkin
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel_Button
         Me.ClientSize = New System.Drawing.Size(375, 490)
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
         Me.Controls.Add(Me.Panel)
+=======
+        Me.Controls.Add(Me.Panel1)
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
@@ -94,5 +112,9 @@ Partial Class PCSkin
     Friend WithEvents TableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
     Friend WithEvents OK_Button As System.Windows.Forms.Button
     Friend WithEvents Cancel_Button As System.Windows.Forms.Button
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
     Friend WithEvents Panel As Panel
+=======
+    Friend WithEvents Panel1 As Panel
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/PCSkin.Designer.vb
 End Class

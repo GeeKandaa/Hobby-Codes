@@ -1,5 +1,11 @@
 ﻿Public Class MenuScreen
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/MenuScreen.vb
 
+=======
+    Private Sub MenuScreen_Load(ByVal Sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Module2.RipSheets()
+    End Sub
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/MenuScreen.vb
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ' Player Name Input
         Dim PCName As String

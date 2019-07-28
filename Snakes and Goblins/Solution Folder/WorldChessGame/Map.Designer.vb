@@ -148,7 +148,11 @@ Partial Class Map
         '
         Me.GameMenuRoot.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.GameMenuRoot.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OptionsToolStripMenuItem, Me.LoadGameToolStripMenuItem, Me.LoadGameToolStripMenuItem1, Me.QuitGameToolStripMenuItem})
+<<<<<<< HEAD
         Me.GameMenuRoot.Image = Global.WorldChessGame.My.Resources.Resources.Menu_Icon
+=======
+        Me.GameMenuRoot.Image = Nothing
+>>>>>>> Edit
         Me.GameMenuRoot.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.GameMenuRoot.Name = "GameMenuRoot"
         Me.GameMenuRoot.Size = New System.Drawing.Size(29, 22)
@@ -269,7 +273,11 @@ Partial Class Map
         '
         Me.ToolbarEnterZone.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolbarEnterZone.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+<<<<<<< HEAD
         Me.ToolbarEnterZone.Image = Global.WorldChessGame.My.Resources.Resources.Explore_Icon
+=======
+        Me.ToolbarEnterZone.Image = Nothing
+>>>>>>> Edit
         Me.ToolbarEnterZone.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolbarEnterZone.Name = "ToolbarEnterZone"
         Me.ToolbarEnterZone.RightToLeft = System.Windows.Forms.RightToLeft.No

@@ -118,6 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+<<<<<<< HEAD
   <data name="Menu_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Icon.2_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1431,5 +1432,69 @@
   </data>
   <data name="PC_Anim_Ninja_Walk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\PC\Anims\Ninja\PC_Anim_Ninja_Walk2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
+  <data name="gamesong_mixdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audio\gamesong_mixdown.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tileset_Terrain_Ground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\Tileset_Terrain_Ground1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Markers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Markers\PC_Markers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Skins_Static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\PC_Skins_Static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Skins_Static_Ref" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\PC_Skins_Static_Ref.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PC_Skin_Ninja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Ninja\PC_Skin_Ninja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PC_Skin_Samurai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PC\Skins\Samurai\PC_Skin_Samurai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tileset_Ashlands_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\tilesets\extractedtilesets\ashlands\tileset_ashlands_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tileset_Hyptosis1_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-2\Tileset_Hyptosis1_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tileset_Hyptosis2_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-3\Tileset_Hyptosis2_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tileset_Hyptosis3_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\Hyptosis\tile-art-batch-4\Tileset_Hyptosis3_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tileset_thefieldofthefloatingislands_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\tilesets\extractedtilesets\the-field-of-the-floating-islands\tileset_thefieldofthefloatingislands_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tileset_TilesetGrass_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\TilesetGrass\Tileset_TilesetGrass_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tileset_WorldMapOverworld_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Tilesets\ExtractedTilesets\worldmapoverworld-tileset\Tileset_WorldMapOverworld_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Goblin_Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\enemies\enemy_goblin_idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_Snake_Idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\enemies\enemy_snake_idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Level0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Strings\Maps\Level0.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="LockedDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\LockedDoor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpawnPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\SpawnPoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnlockedDoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\UnlockedDoor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Wall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> Edit
   </data>
 </root>

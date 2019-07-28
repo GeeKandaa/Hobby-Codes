@@ -22,6 +22,10 @@ Partial Class GameMap
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+<<<<<<< HEAD
+=======
+        Me.components = New System.ComponentModel.Container()
+>>>>>>> Edit
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GameMap))
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
@@ -36,6 +40,11 @@ Partial Class GameMap
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
+<<<<<<< HEAD
+=======
+        Me.PCMoveTimer = New System.Windows.Forms.Timer(Me.components)
+        Me.NPCMoveTimer = New System.Windows.Forms.Timer(Me.components)
+>>>>>>> Edit
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -146,12 +155,27 @@ Partial Class GameMap
         Me.Panel1.Size = New System.Drawing.Size(695, 591)
         Me.Panel1.TabIndex = 0
         '
+<<<<<<< HEAD
+=======
+        'PCMoveTimer
+        '
+        Me.PCMoveTimer.Interval = 10
+        '
+        'NPCMoveTimer
+        '
+        Me.NPCMoveTimer.Interval = 10
+        '
+>>>>>>> Edit
         'GameMap
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(778, 591)
         Me.Controls.Add(Me.SplitContainer1)
+<<<<<<< HEAD
+=======
+        Me.KeyPreview = True
+>>>>>>> Edit
         Me.Name = "GameMap"
         Me.Text = "GameMap"
         Me.SplitContainer1.Panel1.ResumeLayout(False)
@@ -176,4 +200,9 @@ Partial Class GameMap
     Friend WithEvents ToolStripButton2 As ToolStripButton
     Friend WithEvents ToolStripButton3 As ToolStripButton
     Friend WithEvents Panel1 As Panel
+<<<<<<< HEAD
+=======
+    Friend WithEvents PCMoveTimer As Timer
+    Friend WithEvents NPCMoveTimer As Timer
+>>>>>>> Edit
 End Class

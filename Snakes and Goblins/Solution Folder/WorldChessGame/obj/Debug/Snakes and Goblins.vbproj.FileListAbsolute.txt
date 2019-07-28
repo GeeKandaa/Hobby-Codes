@@ -47,3 +47,7 @@ C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChes
 C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.xml
 C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.pdb
 C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\Snakes and Goblins.vbprojAssemblyReference.cache
+<<<<<<< HEAD
+=======
+C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\obj\Debug\WorldChessGame.MapPad.resources
+>>>>>>> Edit

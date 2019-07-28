@@ -14,6 +14,7 @@
     Public hp As Integer
     Public hpMax As Integer
     Public xp As Integer
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
     Public flavour As String
     Public Hurt1 As String
     Public Hurt2 As String
@@ -26,6 +27,14 @@
     Public Event AnimAtt()
     'Public Event AnimHeal()
 
+=======
+    Public ActiveDesc As String
+    Protected flavour As String
+    Protected Hurt1 As String
+    Protected Hurt2 As String
+    Public AttText As String
+    Protected Death As String
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
 
     '________________
     'Function Members
@@ -35,13 +44,29 @@
     'Public Sub Instakill()
     'RaiseEvent Die()
     'End Sub
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
     Public Sub Attacked(ByVal Attack As Integer)
         hp -= Math.Ceiling(Attack - Math.Ceiling(def / 2))
     End Sub
+=======
+    Public Function Damage(ByVal Attack As Integer)
+        hp -= Math.Ceiling(Attack - Math.Ceiling(def / 2))
+        If hp <= 0 Then
+            PCStat.PlayerCharacter.EarnXP(xp)
+            ActiveDesc = Death
+        ElseIf hp < hpMax / 3 Then
+            ActiveDesc = Hurt2
+        ElseIf hp < hpMax * 2 / 3 Then
+            ActiveDesc = Hurt1
+        End If
+        Return True
+    End Function
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
     Public Function Act(ByVal lvl As Integer)
         Randomize()
         Dim rng = Rnd()
         If rng <= 0.1 Then
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
             RaiseEvent AnimAtt()
             Return True
         ElseIf rng * eneLvl <= lvl / 10 Then
@@ -50,6 +75,13 @@
         Else
             Return True
             RaiseEvent AnimAtt()
+=======
+            Return True
+        ElseIf rng * eneLvl <= lvl / 10 Then
+            Return False
+        Else
+            Return True
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
         End If
     End Function
 
@@ -59,7 +91,11 @@ Public Class Goblin
     Inherits Enemy
     Public Sub New()
         nm = "Goblin"
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
         portrait = My.Resources.Enemy_Goblin_Idle
+=======
+        portrait = Nothing
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
         eneLvl = 1
         att = 3
         def = 1
@@ -81,7 +117,11 @@ Public Class Snake
     Inherits Enemy
     Public Sub New()
         nm = "Snake"
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
         portrait = My.Resources.Enemy_Snake_Idle
+=======
+        portrait = Nothing
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/Enemies.vb
         eneLvl = 1
         att = 2
         def = 1

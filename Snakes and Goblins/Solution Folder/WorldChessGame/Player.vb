@@ -4,10 +4,17 @@
     ''''''''''''''
 
     ' Data Member Variables
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/Player.vb
     Public nm As String
     Public skn As Image
     Public mrk As Image
     Public PCLvl As Integer
+=======
+    Public name As String
+    Public skin As Image
+    Public mark As Image
+    Public lvl As Integer
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/Player.vb
     Public att As Integer
     Public def As Integer
     Public spd As Integer
@@ -20,6 +27,7 @@
 
     Public Sub EarnXP(ByVal Experience As Integer)
         xp += Experience
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/Player.vb
         While xp >= xpThresholds(PCLvl - 1)
             PCLvl += 1
             APMod += 2
@@ -38,6 +46,32 @@
         spd = Speed
         hp = Health
         hpMax = Health
+=======
+        While xp >= xpThresholds(lvl - 1)
+            lvl += 1
+            APMod += 2
+        End While
+    End Sub
+    Public Sub Damage(ByVal Attack As Integer)
+        hp -= Math.Ceiling(Attack - Math.Ceiling(def / 2))
+        If hp <= 0 Then
+            For Each frm In Application.OpenForms
+                frm.Hide()
+            Next
+            GameOver.Show()
+        End If
+    End Sub
+    Public Sub New(ByVal PlayerName As String, ByVal Skn As Image, ByVal Marker As Image, ByVal Attack As Integer, ByVal Defense As Integer, ByVal Speed As Integer)
+        name = PlayerName
+        skin = Skn
+        mark = Marker
+        lvl = 1
+        att = Attack
+        def = Defense
+        spd = Speed
+        hp = 20 + Defense * 4
+        hpMax = 20 + Defense * 4
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/Player.vb
         xp = 0
         APMod = 0
     End Sub

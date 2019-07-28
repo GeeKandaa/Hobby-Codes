@@ -7,14 +7,22 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.application
     <dependentAssembly dependencyType="install" codebase="WorldChessGame.exe.manifest" size="3494">
+=======
+    <dependentAssembly dependencyType="install" codebase="WorldChessGame.exe.manifest" size="3903">
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.application
       <assemblyIdentity name="WorldChessGame.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.application
         <dsig:DigestValue>0v/wYhmV6CRnNjejNYuoTXG2WgfEMYR3LaGXfAHd8y8=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>xdViCP9T16gfpbqDQ0+2metOjjgEo6egkmNW5yTvs2k=</dsig:DigestValue>
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/obj/Debug/WorldChessGame.application
       </hash>
     </dependentAssembly>
   </dependency>

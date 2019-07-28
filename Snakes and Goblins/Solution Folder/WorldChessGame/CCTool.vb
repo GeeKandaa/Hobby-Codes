@@ -1,11 +1,19 @@
 ﻿Public Class CCTool
     Dim tot As Integer
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
+=======
+    'Load
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
     Private Sub CCTools_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Me.StartPosition = FormStartPosition.CenterScreen
         tot = Str_ApModBox.Value + End_ApModBox.Value + Dex_ApModBox.Value
         Total_APDispBox.Text = 6 - tot
     End Sub
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
 
+=======
+    'Ap point restrictors
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
     'Ensure initial stats cannot be set higher than 4 or lower than 1
     Private Sub CheckVal(ByVal sender As Object)
         tot = Str_ApModBox.Value + End_ApModBox.Value + Dex_ApModBox.Value
@@ -26,6 +34,7 @@
     Private Sub Dex_ApModBox_ValueChanged(sender As Object, e As EventArgs) Handles Dex_ApModBox.ValueChanged
         CheckVal(sender)
     End Sub
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles Skin_Preview.Click
         PCSkin.Show()
@@ -35,16 +44,43 @@
         PCMarker.Show()
     End Sub
 
+=======
+    'PC Skin and Marker Clicks
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles Skin_Preview.Click
+        PCSkin.Show()
+    End Sub
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles Marker_Preview.Click
+        PCMarker.Show()
+    End Sub
+    'Accept and Close Buttons
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         MenuScreen.Show()
         Me.Close()
     End Sub
+<<<<<<< HEAD:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         GameMap.GameMapLoad("Level0", Me.Marker_Preview.Image)
         GameMap.Show()
         'Pass initial data to in game player character
         BattleScreen.NewCharacter(Me.CCTool_NameBox.Text, Me.Skin_Preview.Image, Me.Marker_Preview.Image, Me.Str_ApModBox.Value, Me.End_ApModBox.Value, Me.Dex_ApModBox.Value, Me.MaxHealth.Text)
+=======
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim StatArray As New List(Of Integer)
+        For Each number In Controls.OfType(Of NumericUpDown)
+            StatArray.Add(number.Value)
+            '(0) - Dexterity 
+            '(1) - Endurance 
+            '(2) - Strength
+            Debug.WriteLine(number.Value)
+        Next
+        GameMap.NewGame(Me.Marker_Preview.Image, Me.Skin_Preview.Image)
+        GameMap.Show()
+        'My.Computer.Audio.Play("C:\Users\User\source\repos\Snakes and Goblins\WorldChessGame\Audio\gamesong_mixdown.wav", AudioPlayMode.BackgroundLoop)
+        'Pass initial data to in game player character
+        PCStat.NewGame(Conversion.Val(Me.CCTool_NameBox.Text), StatArray, Me.Skin_Preview.Image, Me.Marker_Preview.Image)
+>>>>>>> Edit:Snakes and Goblins/Solution Folder/WorldChessGame/CCTool.vb
         PCStat.UpdateCharacter()
         Me.Close()
     End Sub

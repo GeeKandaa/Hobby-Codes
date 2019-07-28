@@ -1,28 +1,22 @@
 ﻿Public Class BattleScreen
     Private ReadOnly Opponents As New Dictionary(Of Integer, Object)
-    Public Pc As Player
-    Private XP_Pot
     Private esc As Integer
+    Private Xp_Pot
     Public ForceClose As Boolean
-
-
-    'Initialises Player object
-    Public Sub NewCharacter(ByVal PlayerName As String, ByVal Marker As Image, ByVal Skin As Image, ByVal Attack As Integer, ByVal Defense As Integer, ByVal Speed As Integer, Health As Integer)
-        Me.PlayerSkin.Image = Skin
-        Pc = New Player(PlayerName, Skin, Marker, Attack, Defense, Speed, Health)
-    End Sub
 
 
     'Initialises UI and generates enemies
     Public Sub Encounter(ByVal num As Integer)
-
-        Me.PlayerName.Text = Pc.nm
-        Me.PlayerHP.Text = Pc.hp
-        Me.PlayerHP_Bar.Value = Pc.hp / Pc.hpMax * 100
-        Me.PlayerXP.Text = Pc.xp
-        Me.PlayerXP_Bar.Value = Pc.xp / Pc.xpThresholds(Pc.PCLvl - 1) * 100
-        Me.XP_Mod.Text = ""
-
+        'UI Setup
+        With PCStat.PlayerCharacter
+            Me.PlayerName.Text = .name
+            Me.PlayerHP.Text = .hp
+            Me.PlayerHP_Bar.Value = .hp / .hpMax * 100
+            Me.PlayerXP.Text = .xp
+            Me.PlayerXP_Bar.Value = .xp / .xpThresholds(.lvl - 1) * 100
+            Me.XP_Mod.Text = ""
+        End With
+        'Generate enemies
         For i = 0 To num - 1
             Dim rng = Rnd()
             If rng < 0.5 Then
@@ -34,29 +28,21 @@
             CombatPicker.Controls("Enemy" & i & "Choose").BackgroundImage = Opponents(i).portrait
             Me.Controls("Enemy" & i & "Name").Text = Opponents(i).nm
             Me.Controls("Enemy" & i & "Desc").Text = Opponents(i).flavour
-
-            XP_Pot += Opponents(i).xp
         Next
     End Sub
 
 
     'Updates player UI and checks for win state
     Public Sub UpdateScreen()
+        Me.PlayerHP.Text = PCStat.PlayerCharacter.hp
+        Me.PlayerHP_Bar.Value = PCStat.PlayerCharacter.hp / PCStat.PlayerCharacter.hpMax * 100
 
-        If Pc.hp < 1 Then
-            Me.Hide()
-            GameOver.Show()
-        Else
-            Me.PlayerHP.Text = Pc.hp
-            Me.PlayerHP_Bar.Value = Pc.hp / Pc.hpMax * 100
-        End If
         If Opponents.Count() = 0 Then
             Button1.Visible = False
             Button2.Visible = False
             Button3.Visible = True
-            Me.XP_Mod.Text = "+" & XP_Pot
-            Pc.EarnXP(XP_Pot)
-            Me.PlayerXP_Bar.Value = Pc.xp / Pc.xpThresholds(Pc.PCLvl - 1) * 100
+            PCStat.PlayerCharacter.EarnXP(XP_Pot)
+            Me.PlayerXP_Bar.Value = PCStat.PlayerCharacter.xp / PCStat.PlayerCharacter.xpThresholds(PCStat.PlayerCharacter.lvl - 1) * 100
         End If
     End Sub
 
@@ -65,16 +51,15 @@
     'After hp calculation, object may be removed from dictionary or status is updated
     'to reflect overall damage
     Public Sub Attack(ByVal enemyIndex As Integer)
-        Opponents(enemyIndex).Attacked(Pc.att)
-        If Opponents(enemyIndex).hp < 1 Then
+        Dim dead As Boolean = Opponents(enemyIndex).Damage(PCStat.PlayerCharacter.att)
+        If dead Then
             CombatPicker.Controls("Enemy" & enemyIndex & "Choose").BackgroundImage = Nothing
             Me.Controls("Enemy" & enemyIndex & "Status").Text = "Dead"
-            Me.Controls("Enemy" & enemyIndex & "Desc").Text = Opponents(enemyIndex).Death
+            Me.Controls("Enemy" & enemyIndex & "Desc").Text = Opponents(enemyIndex).ActiveDesc
+            Me.XP_Mod.Text = "+" & Opponents(enemyIndex).xp
             Opponents.Remove(enemyIndex)
-        ElseIf Opponents(enemyIndex).hp < Opponents(enemyIndex).hpMax / 3 Then
-            Me.Controls("Enemy" & enemyIndex & "Status").Text = Opponents(enemyIndex).Hurt2
-        ElseIf Opponents(enemyIndex).hp < Opponents(enemyIndex).hpMax / 3 * 2 Then
-            Me.Controls("Enemy" & enemyIndex & "Status").Text = Opponents(enemyIndex).Hurt1
+        Else
+            Me.Controls("Enemy" & enemyIndex & "Status").Text = Opponents(enemyIndex).ActiveDesc
         End If
         Defend()
         UpdateScreen()
@@ -84,8 +69,8 @@
     'Calculate enemy actions and calculate player damage if attacked.
     Private Sub Defend()
         For Each Enemy In Opponents
-            If Enemy.Value.Act(Pc.PCLvl) = True Then
-                Pc.Attacked(Enemy.Value.att)
+            If Enemy.Value.Act(PCStat.PlayerCharacter.lvl) = True Then
+                PCStat.PlayerCharacter.Damage(Enemy.Value.att)
                 Me.Controls("Enemy" & Enemy.Key & "Desc").Text = Enemy.Value.AttText
                 CombatPicker.Controls("Enemy" & Enemy.Key & "Choose").BackgroundImage = Opponents(Enemy.Key).portrait
             End If
@@ -119,11 +104,11 @@
         For Each Opponent In Opponents
             esc += Opponent.Value.spd
         Next
-        If Pc.spd >= esc Then
+        If PCStat.PlayerCharacter.spd >= esc Then
             Me.Hide()
             Map.Show()
             ResetScreen()
-        ElseIf Pc.spd >= Math.Floor(esc / 2) And Rnd() < 0.5 Then
+        ElseIf PCStat.PlayerCharacter.spd >= Math.Floor(esc / 2) And Rnd() < 0.5 Then
             Me.Hide()
             Map.Show()
             ResetScreen()
